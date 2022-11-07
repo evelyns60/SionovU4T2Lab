@@ -66,8 +66,6 @@ public class Main {
             }
         }
 
-*/
-
         int j = 0;
         int sum = 0;
         for (int i = 6; j <= i; i--)
@@ -83,6 +81,13 @@ public class Main {
             System.out.print(num + " ");
             num = num / 2;
         }
+*/
+        StringLoops loops = new StringLoops();
+        System.out.println(loops.countCharacters("a", "Apple and banana"));
+        System.out.println(loops.countCharacters("A", "Apple and banana"));
+        System.out.println(loops.countCharacters("!", "Hello! Nice day!"));
+        System.out.println(loops.reverseString("hello!"));
+        System.out.println(loops.reverseString("Apples and bananas"));
 
     }
 }
